@@ -1,0 +1,30 @@
+{
+  "name": "node-webserver",
+  "version": "1.0.0",
+  "description": "Project to learn how to create a webserver in node.js",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fea17e86/node-webserver.git"
+  },
+  "keywords": [
+    "node",
+    "webserver",
+    "learning"
+  ],
+  "author": "fea17e86",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fea17e86/node-webserver/issues"
+  },
+  "homepage": "https://github.com/fea17e86/node-webserver#readme"
+}
