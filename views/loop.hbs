@@ -1,0 +1,25 @@
+{{!Nested if and each loop}}
+{{#if employees}}
+<table class="table">
+  <thead>
+    <tr>
+      <td></td>
+      <td>FirstName</td>
+      <td>LastName</td>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each employees}}
+    <tr>
+      <td>{{@index}}</td>
+      <td>{{firstName}}</td>
+      <td>{{lastName}}</td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
+{{/if}}
+
+{{#unless data}}
+<small>No Data Passed</small>
+{{/unless}}

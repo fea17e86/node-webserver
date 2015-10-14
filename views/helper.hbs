@@ -1,0 +1,8 @@
+{{!Using Helpers}}
+{{#each deals}}
+{{#canDisplayDeal}}
+{{this.name}} <br/>
+{{else}}
+<strong>else</strong> - {{this.name}} <br/>
+{{/canDisplayDeal}}
+{{/each}}
