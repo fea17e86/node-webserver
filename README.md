@@ -9,3 +9,4 @@ Tutorials used
 - http://excellencenodejsblog.com/getting-started-with-express-4-x-express-handlebar/
 - http://excellencenodejsblog.com/getting-started-express-4-x-middleware/
 - http://excellencenodejsblog.com/getting-started-with-express-4-x-advanced-routing/
+- https://github.com/DavidWells/isomorphic-react-example
